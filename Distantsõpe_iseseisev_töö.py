@@ -27,12 +27,11 @@ print("\n")
 #Ülessanne 12
 
 #kolmnurk
-print("*\n"
-      "***\n"
-      "*****\n"
-      "***\n"
-      "*\n")
-
+maks = 6
+for i in range(1,maks-1):
+    print("*"*i)
+for i in range(1,maks):
+    print((maks-i)*"*")
 
 #kahanev kolmnurk
 maks = 6
